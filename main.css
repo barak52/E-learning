@@ -599,7 +599,7 @@ margin-top: 15px;
 
 
  
- @media (max-width:380px) {
+ @media (max-width:400px) {
   .next-div{
     max-width: 350px;
     
@@ -786,6 +786,5 @@ margin-top: 15px;
  padding-left: 205px;
 
 }
-
 
  }
