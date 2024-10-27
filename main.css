@@ -600,19 +600,29 @@ margin-top: 15px;
 
  
  @media (max-width:400px) {
+  .all-body{
+    margin: auto;
+    text-align: center  ;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
   .next-div{
-    max-width: 350px;
-    
+    width: 350px;
+    position: relative;
+    left: 100vw;
+    right: 100%;
     height: 55px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: #FF9500;
+    background-color: #121212;
     border-radius:8px ;
-    margin-right: 100px;
+   
     font-size: 3vw;
     color: #c5e5e4;
+  display: none;
     
 }
 #navbar{
@@ -621,7 +631,7 @@ margin-top: 15px;
   flex-direction: row;
   /* justify-items: baseline; */
   
-  max-width: 370px;
+  width: 300px;
 
   
    background-color:rgba(0, 0, 0, 0)  ;
@@ -631,6 +641,7 @@ margin-top: 15px;
 {
  padding-top: 30px;
    background-color: rgba(255, 255, 255, 0);
+   position: absolute;
    
 }
 #nav{
@@ -682,11 +693,14 @@ display: none;
   display: none;
   background-color: transparent;
   padding: 14px 34px 14px 34px;
+
 }
 .img-con img{
-   margin-top: 100px;
+   margin-top: 120px;
+   margin-left: -460px;
+   margin-bottom: 00px;
  
-    transform: scale(0.5) ; /* Scale down to 50% and rotate by -40 degrees */
+    transform: scale(0.2) ; /* Scale down to 50% and rotate by -40 degrees */
     transition: transform 0.3s ease; /* Optional: Smooth transition effect */
   
  
@@ -699,29 +713,31 @@ display: none;
 .marque{
   background-color: #ffffff;
   box-shadow: 3px 5px 15px 3px rgba(50, 50, 50, 0.413);
- 
-  margin-top: 100px;
+ position: absolute;
+ top: 190vw;
+ left: 93%;
+  margin-top: 00px;
   height: 116px;
   border-radius: 12px;
  display: flex;
  overflow: hidden;
  justify-self: center;
   width: 350;
-  align-content: center;
+ margin-left: -334px;
   
 }
 .slide{
   white-space: nowrap;
-  gap: 40px;
-  padding-left: 60px;
+  gap: 10px;
+  padding-left: 10px;
   align-self: center;
   display: flex;
   justify-items: center;
 
 }
 .aa{
-  width: 1px;
-  height: 60px;
+  width: 1.5px;
+  height: 50px;
   background-color: #353535c4;
   border-radius: 12px;
   margin: 0%;
@@ -757,9 +773,19 @@ display: none;
   
 
 }
+.head .popi h1{
+  font-size: 35px;
+}
+.head .popi p{
+  font-size:12px;
+}
 
-
-
+.ss button{
+  width: 100px;
+  font-size: 15px;
+  padding: 0;
+  height: 50px;
+}
 .card h1{
  margin-left:190px;
  font-size: 50px;
@@ -784,6 +810,125 @@ margin-top: 15px;
  /* margin: 50px 0px; */
  padding: 50px 0px ;
  padding-left: 205px;
+
+}
+
+.hero-sec{
+
+  margin-top: 40px;
+  justify-content: center;
+  background-color: #43353500;
+  width:  370px;
+  display: flex;
+ 
+  /* display: none; */
+  
+
+  
+}
+.main-hero{
+  background-color: #00000000;
+ margin-left: 250px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  
+  
+  
+ }
+ .h1{
+  width: 304px;
+  height: auto;
+ padding: 14px 34px 14px 34px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 16px 8px rgba(54, 53, 53, 0.3);
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+ position: relative;
+ right: 0%;
+ left: -35vw;
+ /* position: absolute; */
+  gap: 10px;
+  top: 40;
+ }
+.h1 h1{
+  font-size: 16px;
+}
+.h1 img{
+  width: 50px;
+  object-fit: cover;
+}
+                                /*  MAIN HERO SECTION START NOW */
+.main-hero h3{
+  font-size: 28px;
+  text-align: center;
+  margin-left: -150px;
+  padding-right: 100px;
+  padding-top: 130px;
+  font-weight: 500;
+  background: none;
+}
+.main-hero h4{
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 150px;
+  color:  #262626;
+ margin-left: -100px;
+ 
+}
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+ /* position: absolute; */
+ 
+ margin-left: -120px;
+}
+
+/*  display none items */
+#Explore{
+  width: 135px;
+  max-height: 60px;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 500;
+  font-size: 10px;
+  background-color: #FF9500;
+ 
+  text-align: center;
+
+
+
+  padding: 10px 24px 10px 24px;
+   gap: 8px;
+   border-radius: 8px;
+   opacity: 0px;
+
+}
+
+#View{
+  width: 125px;
+  max-height: 60px;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 10px ;
+  font-weight: 500;
+
+  background-color: #ffffff;
+ 
+  text-align: center;
+
+
+
+  padding: 10px 24px 10px 24px;
+   gap: 8px;
+   border-radius: 8px;
+   opacity: 0px;
 
 }
 
